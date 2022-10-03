@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: rgb(83, 72, 78);
+    color: aliceblue;
+}
+
+header {
+    margin: 2rem 1rem;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+input,
+button {
+    appearance: none;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+#task-form {
+    display: flex;
+}
+
+#task-input {
+    background-color: rgb(40, 46, 40);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+}
+
+main {
+    margin: 2rem 1rem;
+    width: 800px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.tasks .task {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(40, 46, 40);
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    flex-grow: 1;
+    color: antiquewhite;
+}
+
+.actions {
+    background-color: chartreuse;
+}
